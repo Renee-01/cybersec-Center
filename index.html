@@ -3,26 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>111資訊安全教學研究中心 | 大同大學工程學院</title>
+  <title>首頁 | 資訊安全教學研究中心 - 大同大學工程學院</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <header class="navbar" id="top">
+  <header class="navbar">
     <div class="container nav-inner">
-      <a href="#top" class="brand">
+      <a href="index.html" class="brand">
         <span class="brand-badge" aria-hidden="true">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M12 2L4 5.5V11.5C4 16.8 7.4 21.6 12 23C16.6 21.6 20 16.8 20 11.5V5.5L12 2Z" stroke="currentColor" stroke-width="2" />
-            <circle cx="12" cy="11.5" r="2.5" fill="#38BDF8" />
-            <path d="M12 14V17.5" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" />
+            <path d="M12 2L4 5.5V11.5C4 16.8 7.4 21.6 12 23C16.6 21.6 20 16.8 20 11.5V5.5L12 2Z" stroke="currentColor" stroke-width="2"/>
+            <circle cx="12" cy="11.5" r="2.6" fill="#38BDF8"/>
+            <path d="M12 14.2V17.5" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </span>
         <span class="brand-text">
           <strong>資訊安全教學研究中心</strong>
-          <small>大同大學工程學院 · TATUNG UNIVERSITY</small>
+          <small>TATUNG UNIVERSITY · COLLEGE OF ENGINEERING</small>
         </span>
       </a>
 
@@ -31,670 +31,203 @@
       </button>
 
       <nav class="nav-links" id="navLinks">
-        <a href="#about">定位與價值</a>
-        <a href="#pillars">核心主軸</a>
-        <a href="#team">組織與團隊</a>
-        <a href="#teaching">教學與實作</a>
-        <a href="#roadmap">三年藍圖</a>
-        <a href="#kpi">年度績效</a>
-        <a href="#contact" class="btn-nav">合作與洽詢</a>
+        <a href="index.html" class="active">首頁</a>
+        <a href="about.html">關於中心</a>
+        <a href="research.html">研究主軸</a>
+        <a href="team.html">組織團隊</a>
+        <a href="teaching.html">教學與實作</a>
+        <a href="roadmap.html">三年藍圖</a>
+        <a href="contact.html" class="btn-nav">產學與洽詢</a>
       </nav>
     </div>
   </header>
 
+  <!-- 主視覺區（參考 NTU AI-CORE 深藍節點網格氣場） -->
   <section class="hero">
-    <div class="hero-grid-bg" aria-hidden="true"></div>
+    <div class="hero-canvas" aria-hidden="true"></div>
+    <div class="hero-glow glow-1" aria-hidden="true"></div>
+    <div class="hero-glow glow-2" aria-hidden="true"></div>
+
     <div class="container hero-grid">
-      <div class="hero-content">
+      <div class="hero-copy">
         <div class="eyebrow">
-          <span class="pulse-dot"></span>
-          工程學院院級研究中心 · 審議藍圖（115/10/16）
+          <span class="dot"></span>
+          大同大學工程學院 · 院級跨域研究中心
         </div>
         <h1>
           以資安為基・連結創新
-          <span class="gradient-text">邁向永續未來</span>
+          <span class="text-gradient">邁向永續未來</span>
         </h1>
-        <p class="hero-lead">
-          整合資訊安全、人工智慧、通訊安全與後量子密碼技術，打造串聯「教學與人才培育」、「研究與技術創新」、「產學合作與技術服務」的院級跨域平台。
+        <p class="hero-desc">
+          整合資訊安全、人工智慧、通訊安全與後量子密碼技術，串聯「教學與人才培育」、「研究與技術創新」、「產學合作與技術服務」，打造具特色的大學資安研發與產學基地。
         </p>
         <div class="hero-actions">
-          <a href="#pillars" class="btn btn-primary">探索三大核心主軸</a>
-          <a href="#roadmap" class="btn btn-outline">檢視三年行動方案</a>
-        </div>
-
-        <div class="hero-metrics">
-          <div class="metric-box">
-            <strong>3 大主軸</strong>
-            <span>AI 資安・通訊防禦・PQC</span>
-          </div>
-          <div class="metric-box">
-            <strong>4 大研究組</strong>
-            <span>資工系 × 電機系跨域協作</span>
-          </div>
-          <div class="metric-box">
-            <strong>3 年階段</strong>
-            <span>基礎建置 → 技術驗證 → 產學落地</span>
-          </div>
+          <a href="research.html" class="btn btn-primary">探索研究主軸</a>
+          <a href="contact.html" class="btn btn-glass">產學與合作洽詢</a>
         </div>
       </div>
 
-      <aside class="hero-panel" aria-label="中心三大循環與現況亮點">
-        <div class="panel-header">
-          <span class="mono-tag">SYSTEM_ARCHITECTURE // CYCLE_LOOP</span>
-          <span class="status-pill">院級平台建置中</span>
+      <!-- 右側精密儀表板卡片 -->
+      <aside class="hero-card">
+        <div class="hero-card-top">
+          <span class="mono-label">CENTER_ECOSYSTEM // 03_LOOPS</span>
+          <span class="badge-live">院級跨域平台</span>
         </div>
 
-        <div class="cycle-diagram">
-          <div class="cycle-node node-blue">
-            <span class="node-num">01</span>
-            <div>
+        <div class="loop-stack">
+          <a href="teaching.html" class="loop-item">
+            <div class="loop-icon blue">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="loop-info">
               <strong>教學與人才培育</strong>
-              <p>課程專題、實作任務、競賽證照與論文發表</p>
+              <span>課程專題、實作任務、競賽證照與論文</span>
             </div>
-          </div>
-          <div class="cycle-connector">↓ 技術轉化與實驗驗證 ↓</div>
-          <div class="cycle-node node-teal">
-            <span class="node-num">02</span>
-            <div>
+            <span class="arrow">→</span>
+          </a>
+
+          <a href="research.html" class="loop-item">
+            <div class="loop-icon cyan">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="loop-info">
               <strong>研究與技術創新</strong>
-              <p>AI 智慧防禦、網路與通訊安全、後量子密碼</p>
+              <span>AI 智慧防禦、通訊系統安全、後量子密碼</span>
             </div>
-          </div>
-          <div class="cycle-connector">↓ 場域測試與產業應用 ↓</div>
-          <div class="cycle-node node-amber">
-            <span class="node-num">03</span>
-            <div>
+            <span class="arrow">→</span>
+          </a>
+
+          <a href="contact.html" class="loop-item">
+            <div class="loop-icon amber">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </div>
+            <div class="loop-info">
               <strong>產學合作與技術服務</strong>
-              <p>弱點檢測、資安治理、數位鑑識與導入評估</p>
+              <span>弱點檢測、資安治理、數位鑑識與導入評估</span>
             </div>
-          </div>
+            <span class="arrow">→</span>
+          </a>
         </div>
 
-        <div class="panel-footer-note">
-          <span>核心策略：</span>聚焦特色・分階段建置・產學並進・永續經營
+        <div class="hero-stats-row">
+          <div><strong>3 大主軸</strong><span>前瞻技術聚焦</span></div>
+          <div><strong>4 研究組</strong><span>資工 × 電機跨域</span></div>
+          <div><strong>3 年藍圖</strong><span>建置→驗證→落地</span></div>
         </div>
       </aside>
     </div>
   </section>
 
-  <section class="section" id="about">
+  <!-- 中心使命與願景（雙欄大氣留白，對齊 NTU AI-CORE 下半部結構） -->
+  <section class="section">
     <div class="container">
-      <div class="section-head">
-        <span class="section-tag">01 // MISSION &amp; STRATEGY</span>
-        <h2>中心定位、核心價值與 TOWS 策略</h2>
-        <p>結合工程學院深厚基礎與跨域師資能量，將現況條件轉化為可執行的中長期推動原則。</p>
-      </div>
-
-      <div class="mvvp-grid">
-        <article class="card dark-card">
-          <span class="card-label">MISSION · 使命</span>
-          <h3>整合資安、AI、通訊安全及後量子密碼，建立教學研究與產學服務平台</h3>
-          <p>打通院內課程、專題、碩博士研究與外部產學資源，形成可持續運作的實作與研發基地。</p>
-        </article>
-
-        <article class="card dark-card">
-          <span class="card-label">VISION · 願景</span>
-          <h3>成為具特色的大學資安研究與產學合作基地</h3>
-          <p>承百年底蘊創資安未來，形塑大同大學工程學院在智慧資安與新世代安全領域的辨識度。</p>
-        </article>
-
-        <article class="card dark-card">
-          <span class="card-label">POSITIONING · 定位</span>
-          <h3>以 AI 智慧防禦、通訊安全、後量子密碼及實務攻防為特色</h3>
-          <p>聚焦高潛力且具前瞻性的技術領域，兼顧理論深度、實驗驗證與實務攻防能力。</p>
-        </article>
-
-        <article class="card dark-card">
-          <span class="card-label">VALUE · 價值</span>
-          <h3>培育資安人才，創新資安技術，深化產學合作，提升資安韌性</h3>
-          <p>兼顧教學創新、研究突破、人才培育、產學連結與社會貢獻五大面向。</p>
-        </article>
-      </div>
-
-      <div class="tows-wrapper">
-        <div class="tows-header">
-          <h3>TOWS 策略矩陣（現況與推動策略）</h3>
-          <span class="mono-tag">STRATEGY_MATRIX</span>
+      <div class="dual-manifesto">
+        <div class="manifesto-item">
+          <span class="kicker">CENTER MISSION</span>
+          <h2>中心使命</h2>
+          <div class="accent-bar"></div>
+          <p>整合資安、AI、通訊安全及後量子密碼，建立教學研究與產學服務平台，培育具備理論深度與實務攻防能力的跨域資安人才。</p>
+          <a href="about.html" class="text-link">深入了解中心定位與 TOWS 策略 →</a>
         </div>
-        <div class="tows-grid">
-          <div class="tows-cell">
-            <span class="tows-badge so">SO · 優勢＋機會</span>
-            <h4>掌握機會</h4>
-            <p>運用 AI、資安等工程基礎，爭取政府科技與產業計畫，串聯課程、專題及碩博士研究。</p>
-          </div>
-          <div class="tows-cell">
-            <span class="tows-badge st">ST · 優勢＋威脅</span>
-            <h4>降低威脅</h4>
-            <p>將 AI 通訊安全、隱私保護、後量子密碼等既有技術，轉化為面對新型資安威脅的防禦優勢。</p>
-          </div>
-          <div class="tows-cell">
-            <span class="tows-badge wo">WO · 弱點＋機會</span>
-            <h4>改善劣勢</h4>
-            <p>整合研究計畫、產學合作、技術服務及校友資源，逐步補足 AI/GPU 與攻防平台等設備缺口。</p>
-          </div>
-          <div class="tows-cell">
-            <span class="tows-badge wt">WT · 弱點＋威脅</span>
-            <h4>控制風險</h4>
-            <p>透過成果導向，建立 KPI、經費控管及年度檢核機制，逐步建立多元且永續的經費來源。</p>
-          </div>
+        <div class="manifesto-item">
+          <span class="kicker">DEVELOPMENT VISION</span>
+          <h2>發展願景</h2>
+          <div class="accent-bar teal"></div>
+          <p>承百年底蘊創資安未來，成為具特色的大學資安研究與產學合作基地，持續深化產業連結並提升數位社會資安韌性。</p>
+          <a href="roadmap.html" class="text-link">檢視三年行動方案與年度指標 →</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section section-alt" id="pillars">
+  <!-- 三大核心研究主軸精選入口 -->
+  <section class="section section-tint">
     <div class="container">
-      <div class="section-head">
-        <span class="section-tag">02 // CORE PILLARS &amp; GAP ANALYSIS</span>
-        <h2>三大核心發展主軸與關鍵落差補強</h2>
-        <p>鎖定三大技術主軸，針對目前設備、資料集與測試環境缺口進行分階段補強。</p>
-      </div>
-
-      <div class="pillars-grid">
-        <article class="pillar-card accent-blue">
-          <div class="pillar-top">
-            <span class="pillar-index">PILLAR 01</span>
-            <h3>AI 智慧資安與可信任 AI</h3>
-          </div>
-          <ul class="feature-list">
-            <li>異常偵測與入侵分析</li>
-            <li>惡意程式與威脅情資</li>
-            <li>隱私保護機器學習</li>
-            <li>模型安全與可信任 AI</li>
-          </ul>
-          <div class="gap-box">
-            <div class="gap-row">
-              <strong>目前缺口：</strong>
-              <span>穩定 GPU 運算、資安資料集、模型訓練與分析環境不足</span>
-            </div>
-            <div class="gap-row priority">
-              <strong>優先補強：</strong>
-              <span>建立運算與模型訓練環境，支援模型開發與實驗驗證</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="pillar-card accent-teal">
-          <div class="pillar-top">
-            <span class="pillar-index">PILLAR 02</span>
-            <h3>通訊與系統安全防禦</h3>
-          </div>
-          <ul class="feature-list">
-            <li>網路與通訊安全</li>
-            <li>雲端、零信任與系統防護</li>
-            <li>物聯網與邊緣安全</li>
-            <li>攻防演練與弱點評估</li>
-          </ul>
-          <div class="gap-box">
-            <div class="gap-row">
-              <strong>目前缺口：</strong>
-              <span>共用攻防平台、通訊測試設備、標準化實作流程不足</span>
-            </div>
-            <div class="gap-row priority">
-              <strong>優先補強：</strong>
-              <span>建置可教學、演練及驗證環境，支援專題、服務與產學合作</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="pillar-card accent-amber">
-          <div class="pillar-top">
-            <span class="pillar-index">PILLAR 03</span>
-            <h3>後量子密碼與新世代安全應用</h3>
-          </div>
-          <ul class="feature-list">
-            <li>後量子密鑰封裝與簽章</li>
-            <li>Hybrid TLS 1.3</li>
-            <li>區塊鏈與數位身分安全</li>
-            <li>量子安全遷移與應用驗證</li>
-          </ul>
-          <div class="gap-box">
-            <div class="gap-row">
-              <strong>目前缺口：</strong>
-              <span>PQC 實驗平台、測試資料、應用情境、系統整合及可展示原型不足</span>
-            </div>
-            <div class="gap-row priority">
-              <strong>優先補強：</strong>
-              <span>建立實作與效能測試平台，驗證協定及應用整合</span>
-            </div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="team">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-tag">03 // ORGANIZATION &amp; FACULTY</span>
-        <h2>組織架構與跨系研究團隊</h2>
-        <p>由中心主任統籌，結合資訊工程學系與電機工程學系師資，設置四大研究組協作推進。</p>
-      </div>
-
-      <div class="director-card">
-        <div class="director-badge">中心主任 · DIRECTOR</div>
-        <div class="director-body">
-          <div>
-            <h3>張致恩 <span class="role-sub">客座教授 / 資訊工程學系</span></h3>
-            <p class="director-bio">南佛羅里達大學教授，帶領中心推動跨域資安研究、人才培育與產學連結。</p>
-          </div>
-          <div class="specialty-tags">
-            <span class="tag">Cybersecurity</span>
-            <span class="tag">Privacy of Artificial Intelligence</span>
-          </div>
+      <div class="section-header-split">
+        <div>
+          <span class="kicker">CORE RESEARCH PILLARS</span>
+          <h2>三大核心發展主軸</h2>
         </div>
+        <a href="research.html" class="btn btn-outline-dark">查看技術細節與設備補強 →</a>
       </div>
 
-      <div class="groups-grid">
-        <article class="group-card group-blue">
-          <div class="group-head">
-            <span class="group-dept">資工系</span>
-            <h4>網路與系統安全組</h4>
-            <p class="convener">召集人：<strong>包蒼龍</strong> 講座教授</p>
-          </div>
-          <p class="group-desc">網路管理、系統安全強化、影像與訊號處理安全應用。</p>
-          <div class="group-tags">
-            <span>數位訊號處理</span><span>影像處理</span><span>網路管理</span>
-          </div>
+      <div class="grid-3">
+        <article class="feature-card">
+          <div class="card-top-line blue"></div>
+          <span class="card-num">01</span>
+          <h3>AI 智慧資安與可信任 AI</h3>
+          <p>聚焦異常偵測與入侵分析、惡意程式與威脅情資、隱私保護機器學習，以及模型安全與可信任 AI。</p>
+          <a href="research.html#pillar-1" class="card-link">探索領域內容 →</a>
         </article>
 
-        <article class="group-card group-teal">
-          <div class="group-head">
-            <span class="group-dept">資工系</span>
-            <h4>AI 與智慧資安組</h4>
-            <p class="convener">召集人：<strong>徐家銘</strong> 助理教授</p>
-          </div>
-          <p class="group-desc">AI 偵測、網路安全、入侵偵測、惡意程式分析與智慧防禦。</p>
-          <div class="group-tags">
-            <span>網路安全</span><span>入侵偵測</span><span>惡意程式分析</span>
-          </div>
+        <article class="feature-card">
+          <div class="card-top-line teal"></div>
+          <span class="card-num">02</span>
+          <h3>通訊與系統安全防禦</h3>
+          <p>涵蓋網路與通訊安全、雲端與零信任系統防護、物聯網與邊緣安全，以及攻防演練與弱點評估。</p>
+          <a href="research.html#pillar-2" class="card-link">探索領域內容 →</a>
         </article>
 
-        <article class="group-card group-amber">
-          <div class="group-head">
-            <span class="group-dept">資工系 · 兼任執行副主任</span>
-            <h4>後量子密碼組</h4>
-            <p class="convener">召集人：<strong>周憲政</strong> 助理教授</p>
-          </div>
-          <p class="group-desc">後量子密碼、密碼學、區塊鏈、資通安全與數位鑑識。</p>
-          <div class="group-tags">
-            <span>資通安全</span><span>密碼學</span><span>數位鑑識</span><span>區塊鏈</span>
-          </div>
-        </article>
-
-        <article class="group-card group-purple">
-          <div class="group-head">
-            <span class="group-dept">電機系</span>
-            <h4>資安與 AI 通訊組</h4>
-            <p class="convener">召集人：<strong>卓 立</strong> 助理教授</p>
-          </div>
-          <p class="group-desc">無線與行動通訊防護、AI 通訊安全分析與機器學習。</p>
-          <div class="group-tags">
-            <span>無線通訊</span><span>訊號處理</span><span>網路安全</span><span>機器學習</span>
-          </div>
+        <article class="feature-card">
+          <div class="card-top-line amber"></div>
+          <span class="card-num">03</span>
+          <h3>後量子密碼與新世代應用</h3>
+          <p>推動後量子密鑰封裝與簽章、Hybrid TLS 1.3、區塊鏈與數位身分安全，以及量子安全遷移驗證。</p>
+          <a href="research.html#pillar-3" class="card-link">探索領域內容 →</a>
         </article>
       </div>
     </div>
   </section>
 
-  <section class="section section-alt" id="teaching">
+  <!-- 跨系團隊與三年推進快捷導覽 -->
+  <section class="section">
     <div class="container">
-      <div class="section-head">
-        <span class="section-tag">04 // TEACHING &amp; STUDENT HANDS-ON</span>
-        <h2>教學特色與學生實作任務</h2>
-        <p>將研究成果融入課程與專題，引導學士、碩士與博士生透過實作任務累積實務經驗。</p>
-      </div>
-
-      <div class="teaching-grid">
-        <article class="teaching-card">
-          <span class="track-badge">TRACK 01</span>
-          <h3>AI 智慧資安</h3>
-          <div class="course-block">
-            <strong>課程／專題連結</strong>
-            <p>AI、機器學習、資訊安全、惡意程式與威脅情資</p>
-          </div>
-          <div class="task-block">
-            <strong>博碩及學士生實作任務</strong>
-            <p>入侵偵測模型、特徵分析、深度偽造辨識與情資分析</p>
-          </div>
-        </article>
-
-        <article class="teaching-card">
-          <span class="track-badge">TRACK 02</span>
-          <h3>通訊與系統安全</h3>
-          <div class="course-block">
-            <strong>課程／專題連結</strong>
-            <p>網路、Linux、無線通訊、物聯網、雲端與攻防</p>
-          </div>
-          <div class="task-block">
-            <strong>博碩及學士生實作任務</strong>
-            <p>弱點掃描、滲透測試、封包分析、無線測試、系統強化與攻防演練</p>
-          </div>
-        </article>
-
-        <article class="teaching-card">
-          <span class="track-badge">TRACK 03</span>
-          <h3>後量子密碼</h3>
-          <div class="course-block">
-            <strong>課程／專題連結</strong>
-            <p>密碼學、PQC、區塊鏈、TLS、簽章與金鑰管理</p>
-          </div>
-          <div class="task-block">
-            <strong>博碩及學士生實作任務</strong>
-            <p>演算法實作、KEM 與簽章效能、後量子 TLS 與區塊鏈應用驗證</p>
-          </div>
-        </article>
-
-        <article class="teaching-card">
-          <span class="track-badge">TRACK 04</span>
-          <h3>產學案例與展示</h3>
-          <div class="course-block">
-            <strong>課程／專題連結</strong>
-            <p>專題、競賽、證照、企業實習與合作專案</p>
-          </div>
-          <div class="task-block">
-            <strong>博碩及學士生實作任務</strong>
-            <p>案例分析、服務雛形開發、成果展示、研討會或競賽作品</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="roadmap">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-tag">05 // THREE-YEAR ACTION PLAN</span>
-        <h2>三年行動方案（基礎建置 → 技術驗證 → 產學落地）</h2>
-        <p>依研究發展、教學與人才、產學與服務、交流與營運四大面向分年推進。</p>
-      </div>
-
-      <div class="roadmap-grid">
-        <article class="phase-card phase-1">
-          <div class="phase-header">
-            <span class="phase-num">01</span>
-            <div>
-              <h3>第一年：基礎建置期</h3>
-              <small>建置環境・招募團隊・建立窗口</small>
-            </div>
-          </div>
-          <dl class="phase-list">
-            <div>
-              <dt>研究發展</dt>
-              <dd>建置 AI/GPU、攻防、通訊安全與 PQC 平台</dd>
-            </div>
-            <div>
-              <dt>教學與人才</dt>
-              <dd>招募研究助理與專題生，建立參與機制</dd>
-            </div>
-            <div>
-              <dt>產學與服務</dt>
-              <dd>盤點政府、校友與產學資源，提出計畫</dd>
-            </div>
-            <div>
-              <dt>交流與營運</dt>
-              <dd>辦理演講／工作坊，建立網站與合作窗口</dd>
-            </div>
-          </dl>
-        </article>
-
-        <article class="phase-card phase-2">
-          <div class="phase-header">
-            <span class="phase-num">02</span>
-            <div>
-              <h3>第二年：技術驗證期</h3>
-              <small>驗證原型・擴大實作・推動試案</small>
-            </div>
-          </div>
-          <dl class="phase-list">
-            <div>
-              <dt>研究發展</dt>
-              <dd>驗證 AI 偵測、通訊異常、隱私保護、PQC 應用</dd>
-            </div>
-            <div>
-              <dt>教學與人才</dt>
-              <dd>擴大專題、競賽、證照與論文發表</dd>
-            </div>
-            <div>
-              <dt>產學與服務</dt>
-              <dd>推動企業委託、合作試案與技術驗證</dd>
-            </div>
-            <div>
-              <dt>交流與營運</dt>
-              <dd>辦理論壇／成果展示，建立諮詢與顧問網絡</dd>
-            </div>
-          </dl>
-        </article>
-
-        <article class="phase-card phase-3">
-          <div class="phase-header">
-            <span class="phase-num">03</span>
-            <div>
-              <h3>第三年：產學落地期</h3>
-              <small>整合熟化・深化鏈結・永續營運</small>
-            </div>
-          </div>
-          <dl class="phase-list">
-            <div>
-              <dt>研究發展</dt>
-              <dd>整合研究成果，提升 AI、防禦、通訊與 PQC 成熟度</dd>
-            </div>
-            <div>
-              <dt>教學與人才</dt>
-              <dd>穩定課程、專題與產學鏈結，培育實務人才</dd>
-            </div>
-            <div>
-              <dt>產學與服務</dt>
-              <dd>擴大弱點檢測、資安治理、鑑識與導入評估服務</dd>
-            </div>
-            <div>
-              <dt>交流與營運</dt>
-              <dd>拓展跨校與國內外交流，建立多元營運模式</dd>
-            </div>
-          </dl>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt" id="kpi">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-tag">06 // MILESTONES &amp; KPI</span>
-        <h2>年度里程碑與績效指標</h2>
-        <p>以成果導向推動年度檢核，可依類別切換檢視三年規劃目標。</p>
-      </div>
-
-      <div class="filter-bar" role="tablist" aria-label="績效指標分類">
-        <button class="filter-btn active" data-category="all">全部項目</button>
-        <button class="filter-btn" data-category="grants">計畫與產學</button>
-        <button class="filter-btn" data-category="research">研究與論文</button>
-        <button class="filter-btn" data-category="talent">人才與競賽</button>
-        <button class="filter-btn" data-category="outreach">推廣與教學</button>
-      </div>
-
-      <div class="table-wrap">
-        <table class="kpi-table">
-          <thead>
-            <tr>
-              <th>績效項目</th>
-              <th>第一年</th>
-              <th>第二年</th>
-              <th>第三年</th>
-              <th>三年對照／說明</th>
-            </tr>
-          </thead>
-          <tbody id="kpiTableBody">
-            <tr data-cat="grants">
-              <td>國科會計畫申請</td>
-              <td>2 件</td>
-              <td>2 件</td>
-              <td>2 件</td>
-              <td>三年累計至少 6 件</td>
-            </tr>
-            <tr data-cat="grants">
-              <td>教育部教學實踐計畫申請</td>
-              <td>2 件</td>
-              <td>2 件</td>
-              <td>2 件</td>
-              <td>三年累計至少 6 件</td>
-            </tr>
-            <tr data-cat="grants">
-              <td>教學創新與精進計畫</td>
-              <td>2 件</td>
-              <td>2 件</td>
-              <td>2 件</td>
-              <td>三年累計至少 6 件</td>
-            </tr>
-            <tr data-cat="grants">
-              <td>基礎研究案</td>
-              <td>2 件</td>
-              <td>2 件</td>
-              <td>2 件</td>
-              <td>三年累計 6 件</td>
-            </tr>
-            <tr data-cat="grants">
-              <td>產學合作案</td>
-              <td>2 件</td>
-              <td>2 件</td>
-              <td>2 件</td>
-              <td>三年累計 6 件</td>
-            </tr>
-            <tr data-cat="grants">
-              <td>大專生專題研究計畫</td>
-              <td>1 件</td>
-              <td>2 件</td>
-              <td>2 件</td>
-              <td>三年累計 5 件</td>
-            </tr>
-            <tr data-cat="research">
-              <td>期刊論文投稿（SCI 等級）</td>
-              <td>2 篇</td>
-              <td>3 篇</td>
-              <td>3 篇</td>
-              <td>三年累計至少 8 篇</td>
-            </tr>
-            <tr data-cat="research">
-              <td>期刊論文接受／發表</td>
-              <td>2/2 篇</td>
-              <td>3/3 篇</td>
-              <td>3/3 篇</td>
-              <td>逐年提升投稿與發表成果</td>
-            </tr>
-            <tr data-cat="research">
-              <td>研討會論文投稿／發表</td>
-              <td>8/8 篇</td>
-              <td>9/9 篇</td>
-              <td>9/9 篇</td>
-              <td>每年維持穩定產出</td>
-            </tr>
-            <tr data-cat="talent">
-              <td>學生專題成果</td>
-              <td>11 組</td>
-              <td>12 組</td>
-              <td>12 組</td>
-              <td>每年維持 12 組左右</td>
-            </tr>
-            <tr data-cat="talent">
-              <td>學生專題參與</td>
-              <td>35 人次</td>
-              <td>40 人次</td>
-              <td>40 人次</td>
-              <td>三年合計約 115 人次</td>
-            </tr>
-            <tr data-cat="talent">
-              <td>學生競賽／成果展示</td>
-              <td>3 件</td>
-              <td>3 件</td>
-              <td>4 件</td>
-              <td>三年累計 10 件</td>
-            </tr>
-            <tr data-cat="outreach">
-              <td>專題演講／研討會</td>
-              <td>2 場</td>
-              <td>2 場</td>
-              <td>2 場</td>
-              <td>三年累計 6 場</td>
-            </tr>
-            <tr data-cat="outreach">
-              <td>交流推廣活動</td>
-              <td>4 場</td>
-              <td>3 場</td>
-              <td>4 場</td>
-              <td>三年累計 11 場</td>
-            </tr>
-            <tr data-cat="outreach">
-              <td>研究成果融入課程件數</td>
-              <td>2 件</td>
-              <td>1 件</td>
-              <td>2 件</td>
-              <td>三年累計 5 件</td>
-            </tr>
-            <tr data-cat="outreach">
-              <td>實作教材／案例建置</td>
-              <td>1 件</td>
-              <td>1 件</td>
-              <td>1 件</td>
-              <td>三年累計 3 件</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <section class="section conclusion-section" id="contact">
-    <div class="container">
-      <div class="conclusion-banner">
-        <span class="section-tag">07 // CONCLUSION &amp; COLLABORATION</span>
-        <h2>整合教師專長・支援學生實作・推動研究成果・連結產業需求</h2>
-        <p>
-          本中心將成為整合教學、研究、產學與技術服務之關鍵平台，透過明確組織分工、年度 KPI、經費對應與滾動檢核，逐步形塑大同大學之資安特色與永續競爭力。
-        </p>
-
-        <div class="pillars-strip">
-          <div><strong>01 定位明確</strong><span>聚焦資安、AI、通訊安全與量子安全</span></div>
-          <div><strong>02 規劃可行</strong><span>三年藍圖、組織架構、行動方案與 KPI</span></div>
-          <div><strong>03 效益可期</strong><span>帶動教學創新、人才培育、研究與產學</span></div>
-          <div><strong>04 永續發展</strong><span>結合校內資源與外部計畫，自主營運</span></div>
+      <div class="grid-2-banner">
+        <div class="nav-promo-card dark">
+          <span class="kicker light">FACULTY &amp; RESEARCH GROUPS</span>
+          <h3>資工系 × 電機系跨域研究團隊</h3>
+          <p>由中心主任張致恩客座教授領軍，結合網路與系統安全、AI 與智慧資安、後量子密碼、資安與 AI 通訊四大研究組協作推進。</p>
+          <a href="team.html" class="btn btn-primary">認識組織與師資團隊</a>
         </div>
 
-        <form class="inquiry-form" id="inquiryForm">
-          <h3>產學合作、技術服務或學生參與洽詢</h3>
-          <div class="form-row">
-            <input type="text" name="name" placeholder="您的姓名 / 單位名稱" required />
-            <input type="email" name="email" placeholder="聯絡信箱" required />
-            <select name="topic">
-              <option value="產學合作與技術服務">產學合作與技術服務（弱點檢測／治理／鑑識／PQC 驗證）</option>
-              <option value="學生專題與研究助理">學生專題、競賽與研究助理參與</option>
-              <option value="演講工作坊與交流">專題演講、工作坊與校際交流</option>
-            </select>
+        <div class="nav-promo-card light">
+          <span class="kicker">3-YEAR ROADMAP &amp; TALENT</span>
+          <h3>從基礎建置到產學落地的三年藍圖</h3>
+          <p>串聯學士、碩士與博士生課程專題實作，分階段建置 AI/GPU、攻防演練與 PQC 測試平台，並對外提供專業技術服務。</p>
+          <div class="btn-group">
+            <a href="teaching.html" class="btn btn-outline-dark">學生實作與課程</a>
+            <a href="roadmap.html" class="btn btn-outline-dark">三年行動方案</a>
           </div>
-          <textarea name="message" rows="3" placeholder="請簡述合作需求、研究方向或聯絡事項..." required></textarea>
-          <div class="form-actions">
-            <button type="submit" class="btn btn-primary">產生合作洽詢摘要</button>
-            <span class="form-hint" id="formStatus">靜態網站示範：送出後可快速複製合作需求摘要寄送給中心窗口。</span>
-          </div>
-        </form>
+        </div>
       </div>
     </div>
   </section>
 
   <footer class="footer">
-    <div class="container footer-inner">
-      <div>
+    <div class="container footer-grid">
+      <div class="footer-brand">
         <strong>大同大學工程學院 · 資訊安全教學研究中心</strong>
-        <p>審議報告日期：115/10/16 · 培育資安人才，守護數位未來</p>
+        <p>Cybersecurity Teaching and Research Center, College of Engineering, Tatung University</p>
+        <p class="footer-motto">以資安為基・連結創新・邁向永續未來</p>
       </div>
-      <div class="footer-links">
-        <a href="#top">回到頂部</a>
-        <a href="#pillars">核心主軸</a>
-        <a href="#roadmap">三年藍圖</a>
-        <a href="#kpi">年度績效</a>
+      <div class="footer-col">
+        <h4>探索中心</h4>
+        <a href="about.html">關於中心與策略</a>
+        <a href="research.html">三大核心主軸</a>
+        <a href="team.html">組織架構與師資</a>
+      </div>
+      <div class="footer-col">
+        <h4>學術與合作</h4>
+        <a href="teaching.html">教學特色與學生實作</a>
+        <a href="roadmap.html">三年藍圖與年度 KPI</a>
+        <a href="contact.html">產學合作與技術服務</a>
       </div>
     </div>
+    <div class="container footer-bottom">
+      <span>© 2026 大同大學工程學院 資訊安全教學研究中心 · All Rights Reserved.</span>
+      <span class="mono-dim">SECURITY · AI · PQC · RESILIENCE</span>
+    </div>
   </footer>
-
   <script src="assets/js/main.js"></script>
 </body>
 </html>

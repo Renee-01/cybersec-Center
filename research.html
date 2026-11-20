@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>研究主軸 | 資訊安全教學研究中心 - 大同大學工程學院</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-badge" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2L4 5.5V11.5C4 16.8 7.4 21.6 12 23C16.6 21.6 20 16.8 20 11.5V5.5L12 2Z" stroke="currentColor" stroke-width="2"/>
+            <circle cx="12" cy="11.5" r="2.6" fill="#38BDF8"/>
+            <path d="M12 14.2V17.5" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>資訊安全教學研究中心</strong>
+          <small>TATUNG UNIVERSITY · COLLEGE OF ENGINEERING</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="開啟選單" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">首頁</a>
+        <a href="about.html">關於中心</a>
+        <a href="research.html" class="active">研究主軸</a>
+        <a href="team.html">組織團隊</a>
+        <a href="teaching.html">教學與實作</a>
+        <a href="roadmap.html">三年藍圖</a>
+        <a href="contact.html" class="btn-nav">產學與洽詢</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">首頁</a> / <span>研究主軸</span></div>
+      <span class="kicker light">RESEARCH PILLARS &amp; INFRASTRUCTURE</span>
+      <h1>三大核心發展主軸與平台建置規劃</h1>
+      <p>聚焦前瞻資安技術方向，並針對現有軟硬體與測試環境缺口進行分階段優先補強。</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container pillar-detail-stack">
+      <!-- 主軸一 -->
+      <article class="pillar-detail-card" id="pillar-1">
+        <div class="pillar-side blue">
+          <span class="mono-badge light">PILLAR 01</span>
+          <h2>AI 智慧資安與可信任 AI</h2>
+          <p>結合機器學習與資安情資分析，提升威脅自動化偵測能力，同時確保 AI 模型本身的安全性與隱私保護。</p>
+        </div>
+        <div class="pillar-main">
+          <h4>重點研究子題</h4>
+          <div class="chip-grid">
+            <span>異常偵測與入侵分析</span>
+            <span>惡意程式與威脅情資</span>
+            <span>隱私保護機器學習</span>
+            <span>模型安全與可信任 AI</span>
+          </div>
+          <div class="gap-compare">
+            <div class="gap-item">
+              <strong>目前關鍵落差</strong>
+              <p>穩定 GPU 運算資源、標準化資安資料集、模型訓練與分析環境不足。</p>
+            </div>
+            <div class="gap-item highlight">
+              <strong>優先補強方向</strong>
+              <p>建立共用運算與模型訓練環境，支援深度學習模型開發、對抗樣本測試與實驗驗證。</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 主軸二 -->
+      <article class="pillar-detail-card" id="pillar-2">
+        <div class="pillar-side teal">
+          <span class="mono-badge light">PILLAR 02</span>
+          <h2>通訊與系統安全防禦</h2>
+          <p>從底層網路、無線通訊到雲端與物聯網邊緣節點，建構縱深防禦與標準化實務攻防驗證能力。</p>
+        </div>
+        <div class="pillar-main">
+          <h4>重點研究子題</h4>
+          <div class="chip-grid">
+            <span>網路與通訊安全</span>
+            <span>雲端、零信任與系統防護</span>
+            <span>物聯網與邊緣安全</span>
+            <span>攻防演練與弱點評估</span>
+          </div>
+          <div class="gap-compare">
+            <div class="gap-item">
+              <strong>目前關鍵落差</strong>
+              <p>共用攻防演練平台、通訊測試設備、標準化實作與檢測流程不足。</p>
+            </div>
+            <div class="gap-item highlight">
+              <strong>優先補強方向</strong>
+              <p>建置可兼顧課程教學、紅藍隊演練及協定驗證之環境，支援學生專題與產學技術服務。</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 主軸三 -->
+      <article class="pillar-detail-card" id="pillar-3">
+        <div class="pillar-side amber">
+          <span class="mono-badge light">PILLAR 03</span>
+          <h2>後量子密碼與新世代安全應用</h2>
+          <p>因應量子運算帶來的密碼學挑戰，研發後量子演算法實作、混合式安全協定與量子安全遷移方案。</p>
+        </div>
+        <div class="pillar-main">
+          <h4>重點研究子題</h4>
+          <div class="chip-grid">
+            <span>後量子密鑰封裝與簽章（KEM / Signature）</span>
+            <span>Hybrid TLS 1.3</span>
+            <span>區塊鏈與數位身分安全</span>
+            <span>量子安全遷移與應用驗證</span>
+          </div>
+          <div class="gap-compare">
+            <div class="gap-item">
+              <strong>目前關鍵落差</strong>
+              <p>PQC 實驗平台、基準測試資料、應用情境、系統整合及可展示原型不足。</p>
+            </div>
+            <div class="gap-item highlight">
+              <strong>優先補強方向</strong>
+              <p>建立後量子密碼實作與效能基準測試平台，驗證 Hybrid TLS 協定及產業應用整合原型。</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <strong>大同大學工程學院 · 資訊安全教學研究中心</strong>
+        <p>Cybersecurity Teaching and Research Center, College of Engineering, Tatung University</p>
+        <p class="footer-motto">以資安為基・連結創新・邁向永續未來</p>
+      </div>
+      <div class="footer-col">
+        <h4>探索中心</h4>
+        <a href="about.html">關於中心與策略</a>
+        <a href="research.html">三大核心主軸</a>
+        <a href="team.html">組織架構與師資</a>
+      </div>
+      <div class="footer-col">
+        <h4>學術與合作</h4>
+        <a href="teaching.html">教學特色與學生實作</a>
+        <a href="roadmap.html">三年藍圖與年度 KPI</a>
+        <a href="contact.html">產學合作與技術服務</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 大同大學工程學院 資訊安全教學研究中心 · All Rights Reserved.</span>
+      <span class="mono-dim">SECURITY · AI · PQC · RESILIENCE</span>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

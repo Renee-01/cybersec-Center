@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>產學與洽詢 | 資訊安全教學研究中心 - 大同大學工程學院</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-badge" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2L4 5.5V11.5C4 16.8 7.4 21.6 12 23C16.6 21.6 20 16.8 20 11.5V5.5L12 2Z" stroke="currentColor" stroke-width="2"/>
+            <circle cx="12" cy="11.5" r="2.6" fill="#38BDF8"/>
+            <path d="M12 14.2V17.5" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>資訊安全教學研究中心</strong>
+          <small>TATUNG UNIVERSITY · COLLEGE OF ENGINEERING</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="開啟選單" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">首頁</a>
+        <a href="about.html">關於中心</a>
+        <a href="research.html">研究主軸</a>
+        <a href="team.html">組織團隊</a>
+        <a href="teaching.html">教學與實作</a>
+        <a href="roadmap.html">三年藍圖</a>
+        <a href="contact.html" class="btn-nav active">產學與洽詢</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">首頁</a> / <span>產學與洽詢</span></div>
+      <span class="kicker light">INDUSTRY COLLABORATION &amp; SERVICES</span>
+      <h1>產學合作、技術服務與參與窗口</h1>
+      <p>連結企業實務需求與學校研發能量，歡迎產業界夥伴、政府單位與校內師生聯繫洽詢。</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-intro">
+        <span class="kicker">SERVICE SCOPE</span>
+        <h2>技術服務與合作方向</h2>
+      </div>
+
+      <div class="grid-4">
+        <div class="service-box">
+          <span class="svc-num">01</span>
+          <h3>弱點檢測與攻防評估</h3>
+          <p>系統與網路弱點掃描、滲透測試驗證與安全強化建議。</p>
+        </div>
+        <div class="service-box">
+          <span class="svc-num">02</span>
+          <h3>資安治理與導入評估</h3>
+          <p>企業資安防護架構健檢、零信任與新世代安全技術導入評估。</p>
+        </div>
+        <div class="service-box">
+          <span class="svc-num">03</span>
+          <h3>數位鑑識與威脅分析</h3>
+          <p>惡意程式行為分析、異常入侵事件鑑識與威脅情資研判。</p>
+        </div>
+        <div class="service-box">
+          <span class="svc-num">04</span>
+          <h3>AI 與 PQC 技術驗證</h3>
+          <p>AI 偵測模型驗證、Hybrid TLS 1.3 與後量子密碼遷移效能測試。</p>
+        </div>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-info-panel">
+          <h3>中心聯絡資訊</h3>
+          <p>大同大學工程學院 資訊安全教學研究中心</p>
+          <ul class="info-list">
+            <li><strong>所屬單位：</strong>大同大學工程學院（資訊工程學系 × 電機工程學系）</li>
+            <li><strong>中心位置：</strong>台北市中山區中山北路三段 40 號</li>
+            <li><strong>合作對象：</strong>企業產學委託、政府研究計畫、跨校研究交流、博碩及學士專題生</li>
+          </ul>
+          <div class="core-pledge">
+            <strong>四大核心承諾</strong>
+            <p>定位明確・規劃可行・效益可期・永續發展</p>
+          </div>
+        </div>
+
+        <form class="contact-form-card" id="inquiryForm">
+          <h3>線上合作／參與洽詢單</h3>
+          <div class="form-group">
+            <label for="name">姓名 / 服務單位 *</label>
+            <input type="text" id="name" name="name" placeholder="例如：王小明 / OO科技股份有限公司" required />
+          </div>
+          <div class="form-group">
+            <label for="email">聯絡信箱 *</label>
+            <input type="email" id="email" name="email" placeholder="name@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="topic">洽詢類別</label>
+            <select id="topic" name="topic">
+              <option value="產學合作與技術服務">產學合作與技術服務（弱點檢測／治理／鑑識／PQC 驗證）</option>
+              <option value="政府與跨域研究計畫">政府科技計畫與跨域研究合作</option>
+              <option value="學生專題與研究助理">學生專題、資安競賽與研究助理申請</option>
+              <option value="演講工作坊與交流">專題演講、工作坊與校際參訪交流</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">需求說明 *</label>
+            <textarea id="message" name="message" rows="4" placeholder="請簡述您的合作構想、技術需求或希望參與的方向..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">產生並複製洽詢摘要</button>
+          <p class="form-status" id="formStatus">送出後將自動整理您的需求摘要並複製到剪貼簿，方便直接貼上寄送給中心窗口。</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <strong>大同大學工程學院 · 資訊安全教學研究中心</strong>
+        <p>Cybersecurity Teaching and Research Center, College of Engineering, Tatung University</p>
+        <p class="footer-motto">以資安為基・連結創新・邁向永續未來</p>
+      </div>
+      <div class="footer-col">
+        <h4>探索中心</h4>
+        <a href="about.html">關於中心與策略</a>
+        <a href="research.html">三大核心主軸</a>
+        <a href="team.html">組織架構與師資</a>
+      </div>
+      <div class="footer-col">
+        <h4>學術與合作</h4>
+        <a href="teaching.html">教學特色與學生實作</a>
+        <a href="roadmap.html">三年藍圖與年度 KPI</a>
+        <a href="contact.html">產學合作與技術服務</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 大同大學工程學院 資訊安全教學研究中心 · All Rights Reserved.</span>
+      <span class="mono-dim">SECURITY · AI · PQC · RESILIENCE</span>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
